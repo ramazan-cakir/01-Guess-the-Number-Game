@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgba(83, 138, 214, 1) 0%,
+    rgba(134, 231, 214, 1) 90%
+  );
+  height: 100vh;
+  font-family: "Orbitron", sans-serif;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-con {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-con input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+.input-con button {
+  padding: 10px;
+  margin-left: 16px;
+  font-size: 22px;
+  border: none;
+  background-color: rgb(5, 54, 97);
+  color: white;
+  border-radius: 8px;
+}
+
+.input-con button:hover {
+  opacity: 0.8;
+  background-color: rgb(255, 255, 255);
+  color: rgb(160, 138, 95);
+}
+
+/* background image olarak resim eklenmek istediğinde height verilmeli - yada html de ig eklenmeli*/
+
+.img-con {
+  background-image: url(./assets/number.png);
+  height: 300px;
+  background-repeat: no-repeat; /* Küçük resimler tekrarlar. tekrarlayan resimleri kaldırır.*/
+  background-position: center; /*?Resimi ortalar */
+  background-size: contain;
+}
+
+.descriprition-con {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.live-con {
+  margin-top: 25px;
+  font-weight: 600;
+}
