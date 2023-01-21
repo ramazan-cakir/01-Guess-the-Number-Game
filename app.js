@@ -47,3 +47,5 @@ buton.addEventListener("click", () => {
     imgCon.style.backgroundImage = "url('./assets/try-again.gif')";
   }
 });
+
+
