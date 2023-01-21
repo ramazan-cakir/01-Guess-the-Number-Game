@@ -11,7 +11,7 @@ let live = 3;
 // ceil() sayıyı yukarı yuvarlar
 
 // 1-100 arasında sayı tut
-// console.log(randomNumber);
+console.log(randomNumber);
 
 //addEventListener herhangi bir elementi takip eder, dinler. tıklandığında (click lendiğinde )
 
